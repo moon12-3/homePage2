@@ -75,6 +75,7 @@ body {
 }
 
 .introduce-page {
+    margin-left:3%;
     text-align: center;
     font-size: 1.5em;
     font-family: 나눔스퀘어;
@@ -83,10 +84,6 @@ body {
     height:300px;
     width: 100%;
     /* display: inline; */
-}
-
-.profile {
-    float:left;
 }
 
 nav {
@@ -122,7 +119,14 @@ nav {
     float: left;
 }
 
-#profile{
+#profile {
+    font-size:0.7em;
+    float:left;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#profile2{
     width:18%;
     margin-left: 26%;
     float:left;
@@ -135,8 +139,17 @@ nav {
     margin-top: 10px;
 }
 
+#meet {
+    color:black;
+    font-size:1.5em;
+}
+
+#nicenice {
+    width:300px;
+}
+
 ul {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left:11%;
     float:left;
 }
@@ -151,4 +164,16 @@ ul li {
     font-size: 13px;
     float:left;
     margin-right: 45px;
+}
+
+.link-type:link{
+    text-decoration: none;
+}
+
+.link-type:visited{
+    text-decoration: none;
+}
+
+#meet:hover {
+   color: bisque ;
 }

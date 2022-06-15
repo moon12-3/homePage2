@@ -1,5 +1,9 @@
 var obTimeOut;
 
+let link = document.getElementById('meet');
+link.hover = () => {
+    link.style.color = "darkgoldenrod";
+}
 let objectArray = new Array();
 objectArray[1] = "url(./startbootstrap-freelancer-gh-pages/assets/img/first.JPG)";
 objectArray[2] = "url(./startbootstrap-freelancer-gh-pages/assets/img/second.JPG)";
