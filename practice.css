@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     display: block;
     background-attachment: fixed;
-    height:1015px;
+    height:1360px;
     width:100%;
 }
 
@@ -22,10 +22,10 @@ body {
 }
 
 .name {
-    padding: 35px 0px 32px 0px;
+    padding: 25px 0px 22px 0px;
     width:100%;
     height:auto;
-    background-color:rgb(221, 190, 186);
+    background-color: #DBB89A;
     text-align: center;
     margin: auto 0;
 }
@@ -36,21 +36,44 @@ body {
     font-size: 18px;
     height: 230px;
     text-align: center;
-    margin-top:540px;
+    margin-top:900px;
     padding-top: 55px;
     background-color: white;
+}
+
+.description2 {
+    font-family: 나눔스퀘어;
+    /* font-weight: bold; */
+    font-size: 22px;
+    text-align: center;
+    color:gray;
+    background-color: white;
+    line-height: 140%;
 }
 
 .line{
     margin-top: 23px;
     margin-left: auto;
     margin-right: auto;
-    color:rgb(87, 73, 37);
+    background-color:rgb(87, 73, 37);
     width : 5%;
     height : 20px;
 }
 
+.line2{
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(87, 73, 37);
+    
+    width : 50%;
+    height : 20px;
+}
 
+.vi {
+    width:100%;
+    object-fit: fill;
+}
 
 #image-box {
     background-image: url("./startbootstrap-freelancer-gh-pages/assets/img/first.JPG");
@@ -106,12 +129,36 @@ nav {
 
 #summer {
     font-family: 나눔스퀘어;
-    font-size: 35px;
+    font-size: 2.1rem;
     color:white;
     font-weight: lighter;
 }
 
+#menu {
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#menu>li:hover {
+    color: #D1B510;
+}
+
+.nav>ul {
+    margin-top: 60px;
+    float:left;
+}
+
+#menu>li {
+    font-family: 나눔스퀘어;
+    font-weight: lighter;
+    font-size: 13px;
+    float:left;
+    padding:0px 25px;
+}
+
 #mainName {
+    margin-right: 8%;
     font-family:Blacksword, "나눔스퀘어";
     font-size:50px;
     /* font-weight: bold; */
@@ -148,23 +195,7 @@ nav {
     width:300px;
 }
 
-ul {
-    margin-top: 60px;
-    margin-left:11%;
-    float:left;
-}
 
-ul :first-child {
-    color:darkgoldenrod;
-}
-
-ul li {
-    font-family: 나눔스퀘어;
-    font-weight: lighter;
-    font-size: 13px;
-    float:left;
-    margin-right: 45px;
-}
 
 .link-type:link{
     text-decoration: none;
@@ -175,5 +206,52 @@ ul li {
 }
 
 #meet:hover {
-   color: bisque ;
+   color:bisque;
+}
+
+.sub-menu {
+    text-align: center;
+    /* border:1px solid black; */
+    background-color: white;
+    list-style-type: none;
+    margin:0 -45px;
+    padding:2px;
+    position:absolute;
+    opacity:0;
+    visibility:hidden;
+}
+
+.sub-menu > li {
+    padding:5px 2px;
+    text-align: center;
+    color:black;
+    
+}
+
+.drop-menu {
+    border: none; background-color: white;
+}
+
+#menu > li:hover #sub-menu{
+    opacity:1;
+    visibility: visible;
+}
+
+#sub-menu2 {
+    margin:0 -25px;
+}
+
+#menu > li:hover #sub-menu2{
+    opacity:1;
+    visibility: visible;
+}
+
+#shop:hover {
+    background-color: white;
+    color:darkgoldenrod;
+}
+
+#std {
+    text-align: center;
+    font-weight: lighter;
 }
